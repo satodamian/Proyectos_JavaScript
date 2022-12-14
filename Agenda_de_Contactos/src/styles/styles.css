@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:wght@500&display=swap');
+
+*, ::after, ::before {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    color: rgba(200, 200, 200, .9);
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.container{
+    height: 100vh;
+    width: 70vw;
+    margin: 2rem auto;
+}
+
+.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-size: 2.3em;
+}
+
+.form-datos{
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-datos input{
+    margin: 1rem 0rem;
+    line-height: 3rem;
+    background: none;
+    outline: 0;
+    border: 0;
+    color: white;
+}
+/* input:active */
+.form-datos input:active{
+    border-bottom: 1px solid white;
+}
+.form-datos input:focus{
+    border-bottom: 1px solid white;
+}
+.form-datos button{
+    margin: 1rem 0rem;
+    background-color: dodgerblue;
+    border: 0;
+    outline: 0;
+    height: 3rem;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.listado-tareas{
+    display: block;
+    flex-direction: column;
+}
+
+.tarea{
+    display: flex;
+    flex-direction: row;
+    /* espacios entre componentes */
+    justify-content: space-between;
+    height: 4rem;
+}
